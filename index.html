@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucket FLowers Website</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/99/MTA-152358174/freshcut-flowers_freshcut-flowers_full01.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <p>FRESH FLOWERS | HANDCRAFTED WITH LOVE</p>
+        <h1>Bloom & Bouquet</h1>
+        <p class="subtitle">Beautiful flower buckets for every little moment</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section-heading">
+        <div>
+          <p class="section-label">OUR COLLECTIONS</p>
+          <h2>Flower Buckets</h2>
+        </div>
+        <p class="section-description">
+          Pick your favorute arrangement and discover its details.
+        </p>
+      </section>
+
+      <div class="grid" id="flower-grid"></div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Bloom & Boouquet. Made With 🌹+ 💻 by
+        <a
+          href="https://halip26.github.io"
+          target="_blank"
+          rel="noopener"
+          class="footer-link"
+          >Halip26</a
+        >
+      </p>
+    </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="close-btn" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-image-wrap">
+        <img id="modal-img" src="" alt="flower bucket" />
+        <span id="modal-price" class="modal-price"></span>
+      </div>
+
+      <div class="modal-text">
+        <p class="modal-category">FLOWER BUCKET</p>
+        <h2 id="modal-title">Flower Bucket</h2>
+        <div id="modal-stars" class="stars" aria-label="Rating"></div>
+        <p id="modal-rating" class="rating-text"></p>
+        <p id="modal-desc">Flower description itu disini yaa...</p>
+        <div class="model-author-row">
+          <span>Handcrafted by Bloom & Bouquet</span>
+          <span id="modal-stock" class="stock"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -50,6 +50,17 @@ const flowers = [
     stock: "Available",
   },
   {
+    title: "Green Bouquet",
+    image:
+      "https://i.pinimg.com/1200x/fd/7d/f8/fd7df896931640c7a432ce5fd21b77e6.jpg",
+    desc: "A unique and modern aesthetic featuring lush eucalyptus leaves, succulents, and subtle pastel blooms. Fresh, vibrant, and full of natural life.",
+    author: "Mike Thompson",
+    price: "Rp 300.000",
+    stars: 5,
+    rating: 4.7,
+    stock: "In Stock",
+  },
+  {
     title: "Garden Party",
     image:
       "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1000&q=85",

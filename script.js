@@ -3,7 +3,7 @@ const flowers = [
   {
     title: "Blush Romance",
     image:
-      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/5d/00/7f/5d007f5147869df51eb97ea6fcc0eed9.jpg",
     desc: "A soft and romantic mix of blush pink blooms, perfect for birthdays, congratulations, or simply making someone smile.",
     price: "Rp 185.000",
     stars: 5,
@@ -20,9 +20,9 @@ const flowers = [
     stock: "Available",
   },
   {
-    title: "Sunny Daisy",
+    title: "Blue Daisy",
     image:
-      "https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/1f/c2/9b/1fc29bdea2fd081c64b03657a1826872.jpg",
     desc: "Cheerful yellow and white flowers arranged into a bright bucket that brings a little sunshine to any room.",
     price: "Rp 150.000",
     stars: 4,
@@ -30,9 +30,9 @@ const flowers = [
     stock: "Available",
   },
   {
-    title: "Lavender Dream",
+    title: "White Bouquet",
     image:
-      "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/48/c9/22/48c922d52b06254bd37804bed6a2fe20.jpg",
     desc: "An elegant lavender-toned arrangement with a calm, dreamy character. A lovely choice for a thoughtful gift.",
     price: "Rp 210.000",
     stars: 5,
@@ -42,7 +42,7 @@ const flowers = [
   {
     title: "White Elegance",
     image:
-      "https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/14/e9/7e/14e97eeaa207423a606815d98074ec36.jpg",
     desc: "Clean, graceful white blooms with a timeless look. Minimal, classy, and easy to love.",
     price: "Rp 225.000",
     stars: 5,
@@ -62,7 +62,7 @@ const flowers = [
   {
     title: "Pink Peony",
     image:
-      "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=1000&q=85",
     desc: "A romantic pink arrangement with a soft, luxurious feel. Designed to make a beautiful first impression.",
     price: "Rp 250.000",
     stars: 5,
